@@ -1,7 +1,21 @@
 doctype html
 html
   head
-    title= title
+    title Lemonade Stand
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', crossorigin='anonymous')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css', crossorigin='anonymous')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', crossorigin='anonymous')
     link(rel='stylesheet', href='/stylesheets/style.css')
+
   body
+    ul.nav.nav-pills
+      li.active(role='presentation')
+        a(href='#') Home
+      li(role='presentation')
+        a(href='/neighborhoods') Neighborhoods
+      li(role='presentation')
+        a(href='/stands') Lemonade Stands
     block content
+
+    

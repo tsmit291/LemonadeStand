@@ -1,8 +1,17 @@
 body {
+  background-color: white;
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.container {
+  width: 50vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
