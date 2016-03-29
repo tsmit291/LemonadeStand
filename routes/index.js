@@ -7,8 +7,12 @@ router.get('/', function(req, res, next) {
   res.render('home');
 });
 
-router.get('/home', function(req, res, next){
+router.get('/neighborhoods', function(req, res, next){
+  res.render('neighborhoods');
+});
 
-})
+router.get('/stands', function(req, res, next){
+  res.render('stands');
+});
 
 module.exports = router;

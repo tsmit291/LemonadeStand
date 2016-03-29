@@ -15,3 +15,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.tagLine {
+  color: #00b7ff;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
